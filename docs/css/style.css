@@ -137,6 +137,10 @@ header nav ul li:hover {
 
 }
 
+#elements li {
+  width: 33.33%;
+}
+
 /* CONTACT ************************************************/
 
 
