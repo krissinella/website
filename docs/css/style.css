@@ -148,7 +148,8 @@ header nav ul li:hover {
 
 #contact {
   background-color: #8f9e8b;
-  min-height: auto;
+  min-height: 0px;
+  height: 100px;
 }
 
 /* Footer ************************************************/
