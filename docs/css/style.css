@@ -172,8 +172,29 @@ footer p {
     width: 80%;
     }
 
+    #about img {}
+
+
   #work p {
     width: 80%;
+  }
+
+  #projects {
+    width: auto;
+  }
+
+  #projects ul li {
+    width: 100%;
+    float: none;
+  }
+
+  #projects ul li:last-child {
+    padding-bottom: 20%;
+  }
+
+  #projects img {
+    width: 55%;
+    height: auto;
   }
 }
 
@@ -228,4 +249,11 @@ border-top: 1px solid #dddddd;
 
 header nav ul li:hover {
   background-color: #eeeeee;
+}
+
+#projects img {
+  width: 70%;
+  height: auto;
+}
+
 }
