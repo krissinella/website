@@ -99,7 +99,8 @@ header nav ul li:hover {
   margin: 0 auto 40px auto;
 }
 #about img {
-  width: 800px;
+  max-width: 80%;
+  height: auto;
 }
 
 
@@ -132,8 +133,8 @@ header nav ul li:hover {
 }
 
 #projects img {
-  width: 200px;
-  height: 100px;
+  width: 33%;
+  height: auto;
   border-radius: 5px;
 
 }
@@ -167,58 +168,6 @@ footer a {
   text-transform: none;
   font-weight:
 
-}
-
-/* Mobile */
-
-@media screen and (max-width: 480px) {
-
-#logo {
-  width: 90px;
-  margin-left: 30px;
-}
-
-header nav {
-  margin: 0;
-  float: none;
-}
-
-.fa-bars {
-  font-size: 17px;
-  display: inline-block;
-  width: 100%;
-  cursor: pointer;
-  text-align: right;
-  float: right;
-  margin: -25px 30px 0 0;
-}
-
-.fa-bars:hover {
-  opacity: 0.5;
-}
-
-header nav ul {
-  height: 0;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-header nav ul.open {
-  height: auto;
-}
-
-header nav ul li {
-width: 100%;
-padding: 5px 0;
-margin: 0;
-font-size: 11px;
-border-top: 1px solid #dddddd;
-}
-
-header nav ul li:hover {
-  background-color: #eeeeee;
 }
 
 /* Media Queries ************************************************/
@@ -263,8 +212,8 @@ header nav ul li:hover {
   }
 
   #projects ul li {
-    width: 100%;
-    float: none;
+    width: 45%;
+    float: left;
   }
 
   #projects ul li:last-child {
@@ -331,7 +280,7 @@ header nav ul li:hover {
 }
 
 #projects img {
-  width: 70%;
+  width: 80%;
   height: auto;
 }
 
