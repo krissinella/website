@@ -89,9 +89,8 @@ fond-size: 16px;
 }
 
 header, nav, ul, li:hover {
-  padding-top: 2px;
+  padding-top: 0px;
 }
-
 
 /* HOME ************************************************/
 
@@ -324,10 +323,8 @@ header nav ul li:hover {
 #projects ul li {
   width: 80%;
   float: none;
-
+}
 
 p {
   font-size: medium;
-}
-
 }
