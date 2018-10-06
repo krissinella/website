@@ -232,6 +232,7 @@ footer a {
     font-family: "Roboto", sans-serif;
     color: #000000;
     font-size: medium;
+    margin-bottom: 5px;
   }
 
   .covers-elements img {
