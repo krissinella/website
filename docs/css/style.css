@@ -147,12 +147,13 @@ header, nav, ul, li:hover {
   display: inline-block;
   font-family: "Roboto", sans-serif;
   color: #000000;
-  font-size: medium;
+  font-size: smaller;
+  padding-bottom: 2%;
 }
 
 .covers-elements img {
-  width: 50%;
-  padding: 10px;
+  width: 60%;
+  padding: 0 0 0 5px;
 }
 
 /* CONTACT ************************************************/
@@ -161,6 +162,7 @@ header, nav, ul, li:hover {
   padding: 50px 50px;
   background-color: #f1f1f1;
   height: auto;
+  font-size: smaller;
 }
 
 /* Footer ************************************************/
