@@ -1,0 +1,319 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+}
+
+a {text-decoration: none;}
+
+li {list-style-type: none;}
+
+h1, h2, h3, a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #494949;
+  text-transform: uppercase;
+}
+
+h2 {color: #5d7177;}
+
+h3 {
+  font-size: 40px;
+  padding: 5px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+h4, p {
+  font-family: "Roboto", sans-serif;
+  color: #494949;
+  font-size: normal;
+  margin: 0;
+}
+
+hr {
+  width: 40px;
+  height: 3px;
+  background: #494949;
+  border: 0px;
+  margin: 0 auto 20px auto;
+  }
+
+.paragraph {
+  width: 75%;
+  padding-bottom: 40px;
+  margin: 0 auto 0px auto;
+}
+
+/* header */
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header img {
+  width: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navigation {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;;
+    background-color: #fff;
+}
+
+.navigation .btn .menu {
+    display: none;
+}
+
+.navigation .btn:hover .menu {
+    display: block;
+}
+
+.navigation li .navlink {
+    border-bottom: 1px solid #f4f4f4;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #f4f4f4;
+}
+
+.navigation .btn-link {
+    float: right;
+    padding: 15px 15px;
+}
+
+.navigation .menu {
+    clear: right;
+}
+
+
+
+/* HOME ************************************************/
+
+#home {
+  background: url(../img/landing.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;
+  padding-top: 50px;
+}
+
+/* ABOUT ************************************************/
+
+#about {
+  background-color: #f0f0f0;
+  padding-top: 50px;
+}
+
+#about img {
+  max-width: 65%;
+  height: auto;
+  padding-bottom: 2%;
+}
+
+/* WORK and PROJECTS ************************************************/
+
+#work {
+  background-color: #e2e2e2;
+  padding-top: 50px;
+}
+
+.covers {
+  width: 80%;
+  display: inline-block;
+}
+
+.covers-elements {
+  width: 33%;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: smaller;
+  padding-bottom: 2%;
+}
+
+.covers-elements img {
+  width: 60%;
+  padding: 0 0 0 5px;
+}
+
+
+/* CONTACT ************************************************/
+
+#contact {
+  padding: 30px 30px;
+  background-color: #f1f1f1;
+  height: auto;
+  font-size: smaller;
+}
+
+
+/* IMPRESSUM ************************************************/
+
+#impressum {
+  background-color: #f0f0f0;
+  padding-top: 50px;
+  height: auto;
+  margin: 0;
+}
+
+/* Footer ************************************************/
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #3f3f3f;
+}
+
+footer p {
+  font-size: 12px;
+  color: #f0f0f0;
+  padding-top: 30px;
+  }
+
+footer a {
+  font-size: 12px;
+  color: #f0f0f0;
+  padding-top: 30px;
+  text-transform: none;
+  font-weight:
+
+}
+
+
+/* Media Queries ************************************************/
+
+/* > 1024px */
+
+@media (min-width: 1024px) {
+
+    .navigation li {
+        float: right;
+    }
+
+    .navigation li .navlink {
+        float: left;
+        padding: 15px 7px;
+    }
+
+    .navigation li a {
+        padding: 0 10px 0 0;
+    }
+    .navigation .btn .menu {
+        float: left;
+        display: block;
+    }
+    .navigation .btn-link {
+        display: none;
+        float: left;
+        padding: 5px 5px;
+    }
+
+}
+
+/* < 1024px */
+
+@media screen and (max-width: 1024px) {
+
+
+  h3 {
+    padding-top: 2%;
+  }
+
+.header img {
+  width: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+  #about p {
+    width: 80%;
+    margin-bottom: 20px;
+    }
+
+  #about img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  #work p {
+    width: 80%;
+  }
+
+  .covers {
+    width: 80%;
+    display: inline-block;
+  }
+
+  .covers-elements {
+    width: 45%;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-size: medium;
+    margin-bottom: 5px;
+  }
+
+  .covers-elements img {
+    width: 60%;
+    padding: 10px;
+  }
+}
+
+
+/* < 480px */
+
+@media screen and (max-width: 480px) {
+
+#logo {
+  width: 90px;
+  margin-left: 30px;
+}
+
+#about img {
+  max-width: 90%;
+  height: auto;
+}
+
+.covers-elements {
+  width: 80%;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: medium;
+}
+
+.covers-elements img {
+  width: 60%;
+  padding: 10px;
+}
+
+p {
+  font-size: medium;
+}
+}
