@@ -46,6 +46,12 @@ hr {
   margin: 0 auto 0px auto;
 }
 
+.paragraph-impressum {
+  width: 75%;
+  padding-bottom: 2px;
+  margin: 0 auto 0px auto;
+}
+
 /* header */
 
 .header {
@@ -170,6 +176,22 @@ hr {
   font-size: smaller;
 }
 
+#contact a {
+  font-family: "Roboto", sans-serif;
+  color: #494949;
+  font-size: normal;
+  margin: 0;
+  text-transform: none;
+}
+
+.socials {
+  width: 100%;
+}
+
+.socials img {
+  width: 30px;
+  padding: 10px;
+}
 
 /* IMPRESSUM ************************************************/
 
@@ -178,6 +200,15 @@ hr {
   padding-top: 50px;
   height: auto;
   margin: 0;
+}
+
+#impressum ul li {
+  font-family: "Roboto", sans-serif;
+  color: #494949;
+  font-size: normal;
+  margin: 0;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 /* Footer ************************************************/
